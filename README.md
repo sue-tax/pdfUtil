@@ -11,10 +11,10 @@
 　「shell:sendto」を入力して、「OK」をクリックします。
  
 　開いたフォルダが「SendTo」用のフォルダです。
-　
-C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendToのようなフォルダ名で、プリンタのショートカットなどが入っています。
 
-そのフォルダにダウンロードしたファイルをコピーしてください。
+　C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendToのようなフォルダ名で、プリンタのショートカットなどが入っています。
+
+　そのフォルダにダウンロードしたファイルをコピーしてください。
 
 　元のＰＤＦファイルを削除しますので、まずはＰＤＦファイルをコピーして、お試しください。
 
