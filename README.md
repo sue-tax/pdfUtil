@@ -68,6 +68,5 @@ https://www.billionwallet.com/goods/windows10/win10_mouse_rightclick.html
 　こちらの記事を参考に、
 "C:\WINDOWS\system32\mspaint.exe" "%1"
 の代わりに、
-"C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendTo\
-PdfRight.exe" "%1"
+"C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendTo\PdfRight.exe" "%1"
 を設定すれば、できるようだ。
