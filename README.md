@@ -28,7 +28,13 @@ PdfRightU.exe      右回転（複数ページ、複数ファイルに対応）�
 PdfLeft.exe        左回転（複数ページ、複数ファイルに対応）
 
 
+PdfLeftU.exe      左回転（複数ページ、複数ファイルに対応）　※保護ファイル対応
+
+
 PdfUpsideDown.exe  １８０度回転（複数ページ、複数ファイルに対応）
+
+
+PdfUpsideDownU.exe      １８０度回転（複数ページ、複数ファイルに対応）　※保護ファイル対応
 
 
 PdfSplit.exe       １ページずつに分割（複数ファイル非対応）
