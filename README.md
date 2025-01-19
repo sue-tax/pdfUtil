@@ -88,3 +88,6 @@ https://www.billionwallet.com/goods/windows10/win10_mouse_rightclick.html
 の代わりに、
 "C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendTo\PdfRight.exe" "%1"
 を設定すれば、できるようだ。
+
+"C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendTo\PdfMergeU.exe" "%1" "%2" "%3" "%4" "%5" "%6" "%7" "%8" "%9"
+のようにすれば、複数ファイルを指定可能になる。
