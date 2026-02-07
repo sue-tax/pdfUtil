@@ -1,15 +1,17 @@
 # PDFファイル操作ユーティリティ
 
 　ＰＤＦファイルを右クリックして、回転、分割、結合ができます。
- 
+
 　Exploreやデスクトップ上で、ＰＤＦファイルを右クリックして、「送る」の中から、PdfRight.exe などを選択してください。
+
+## インストール方法
 
 　ダウンロードしたファイルを、「SendTo」用のフォルダにコピーします。
 
 ※Windowsキー＋Rで、「ファイル名を指定して実行」ダイアログを開きます。
 
 　「shell:sendto」を入力して、「OK」をクリックします。
- 
+
 　開いたフォルダが「SendTo」用のフォルダです。
 
 　C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendToのようなフォルダ名で、プリンタのショートカットなどが入っています。
@@ -67,8 +69,9 @@ PdfDevide.exe      ２つに分割（複数ファイル非対応）
 
 PdfMark.exe       ＰＤＦファイルの先頭ページの左上に、「済」マークを付けます。
 
-
 PdfUnlock.exe　　ＰＤＦファイルの保護を解除します。
+
+PdfMemo.exe　　クリップボード内の文字列を、ＰＤＦファイルの左上に注釈として書き込みます。
 
 
 ※ファイル名を「右回転.exe」などに変更しても、動作します。
@@ -77,14 +80,20 @@ PdfUnlock.exe　　ＰＤＦファイルの保護を解除します。
 　レジストリをいじれば、右クリックから直接選択することも可能です。
 　ただし、くれぐれも自己責任でお願いします。
 
-https://www.billionwallet.com/goods/windows10/win10_mouse_rightclick.html
+~~https://www.billionwallet.com/goods/windows10/win10_mouse_rightclick.html~~
 
-マウス右クリックで表示されるメニューにアイテムを追加し
+~~マウス右クリックで表示されるメニューにアイテムを追加し~~
 
-関連ファイルを素早く開く方法 - Windows 10
+~~関連ファイルを素早く開く方法 - Windows 10~~
+
+　~~こちらの記事を参考に、~~
+~~"C:\WINDOWS\system32\mspaint.exe" "%1"~~
+~~の代わりに、~~
+
+https://it-study.info/pulldownmenu-item-add/
 
 　こちらの記事を参考に、
-"C:\WINDOWS\system32\mspaint.exe" "%1"
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe" "%1"
 の代わりに、
 "C:\Users\xxxxxxx\AppData\Roaming\Microsoft\Windows\SendTo\PdfRight.exe" "%1"
 を設定すれば、できるようだ。
